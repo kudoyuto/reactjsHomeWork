@@ -1,0 +1,26 @@
+.counter {
+    margin: 10px;
+    
+
+}
+.button {
+    
+    border-radius: 50%;
+    border-color: brown;
+    width: 10px;
+    padding: 12px 20px;
+}
+input[type=number] {
+    font-size: 150%;
+    font-family: 'Courier New', monospace;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid brown;
+}
+.span {
+    font-family: 'Courier New', monospace;
+    font-weight: light;
+    font-size: 150%;
+}

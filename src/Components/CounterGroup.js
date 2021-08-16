@@ -1,4 +1,5 @@
 import Counter from "./Counter";
+import "../styles/Counter.css";
 function CounterGroup(props) {
     function generateCounterList() {
         return new Array(props.counterSize).fill(Date.now());
@@ -11,7 +12,7 @@ function CounterGroup(props) {
             {counterList.map((item, index) =>(
                 <Counter key={item + index}></Counter>
             ))}
-            <div>counterSize:{props.counterSize}</div>
+            <div className="span">counterSize:{props.counterSize}</div>
         </div>
 
     );
